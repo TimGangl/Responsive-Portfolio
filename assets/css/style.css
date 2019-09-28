@@ -5,7 +5,6 @@ body {
   background: #dddddd;
   font-size: 12px;
   background-image: url(../css/gravel/gravel.png);
-  
 }
 
 .main-content {
@@ -14,16 +13,16 @@ body {
   background: #ffffff;
   border-color: #dddddd;
   position: relative;
-  left: 250px; 
+  left: 250px;
 }
 
-.main-content2{
+.main-content2 {
   width: 960px;
   height: 1200px;
   background: #ffffff;
   border-color: #dddddd;
   position: relative;
-  left: 250px; 
+  left: 250px;
 }
 
 header {
@@ -37,14 +36,14 @@ header {
   height: 100px;
   position: relative;
   top: 0px;
-  }
+}
 
 hr {
   color: #777777;
   margin: 0px;
 }
 
-.hr-content{
+.hr-content {
   position: relative;
   width: 918px;
   margin-left: auto;
@@ -61,7 +60,7 @@ hr {
   left: 250px;
   top: 20px;
 }
- 
+
 nav {
   background-color: #ffffff;
   padding: 5px;
@@ -80,30 +79,30 @@ li {
   bottom: 0px;
 }
 
-h1{
+h1 {
   padding: 5px;
 }
 
 #about-me {
-  color:#4aaaa5;
+  color: #4aaaa5;
   text-align: left;
   width: 960px;
   position: relative;
   left: 20px;
   top: 20px;
-  padding: 0px,10px, 10px, 10px;
+  padding: 0px, 10px, 10px, 10px;
 }
 
-#portfolio{
-  color:#4aaaa5;
+#portfolio {
+  color: #4aaaa5;
   text-align: left;
   position: relative;
   left: 20px;
   top: 20px;
 }
 
-#contact{
-  color:#4aaaa5;
+#contact {
+  color: #4aaaa5;
   text-align: left;
   position: relative;
   left: 20px;
@@ -120,43 +119,43 @@ h1{
 p {
   font-family: Georgia, Times New Roman, Times, serif;
   width: 930px;
-  font-size: 20px; 
+  font-size: 20px;
   line-height: 42px;
   position: relative;
   left: 18px;
   bottom: 30px;
 }
 
-.p1{
+.p1 {
   font-size: large;
   position: relative;
   bottom: 25px;
   left: 25px;
 }
 
-Form{
+form {
   font-size: large;
   position: relative;
   left: 25px;
   line-height: 25px;
 }
 
-#button{
+#button {
   background-color: #4aaaa4;
   color: #ffffff;
-  font-size: x-large; 
+  font-size: x-large;
 }
 
-.thumbnail{
+.thumbnail {
   position: relative;
-  margin: 0px 10px 10px 10px; 
+  margin: 0px 10px 10px 10px;
   display: inline;
 }
 
-.thumbnail:hover{
-  opacity: .5;
+.thumbnail:hover {
+  opacity: 0.5;
 }
-.overlay{
+.overlay {
   position: absolute;
   width: 300px;
   z-index: 1;
@@ -171,7 +170,7 @@ Form{
   font-size: medium;
 }
 
-.project-info{ 
+.project-info {
   position: relative;
   left: 18px;
   margin-right: 10px;
@@ -188,15 +187,54 @@ footer {
   z-index: 2;
 }
 
-.blue-box{
+.blue-box {
   background: #4aaaa4;
   height: 8px;
 }
 
-input{
+input {
   width: 735px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
 }
 
+@media screen and (max-width: 640px) {
+  header {
+    position: static;
+    top: 0px;
+    text-align: right;
+  }
+  nav {
+    float: right;
+    text-align: right;
+  }
+  .header-nav {
+    width: auto;
+  }
+  #photo {
+    padding: bottom 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    position: static;
+    top: 0px;
+    text-align: right;
+  }
+  #photo {
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  header {
+    position: static;
+    top: 0px;
+    text-align: right;
+  }
+  #photo {
+    padding-bottom: 10px;
+  }
+}
